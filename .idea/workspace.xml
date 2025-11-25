@@ -4,50 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d85fb50-b2ee-4d67-abf9-1606d6ae77b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/ExtentReport_20251113_134601.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/objectRepository/OR.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/pages/AddToCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/pages/InventoryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/tests/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/utils/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/utils/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Ecommerce Suite/Ecommerce Tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Ecommerce Suite/Ecommerce Tests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Ecommerce Suite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ExtentReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Selenium Demo Suite/Login Tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Selenium Demo Suite/Login Tests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Selenium Demo Suite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/TEST-TestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/TestSuite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.qa.tests.LoginTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8d85fb50-b2ee-4d67-abf9-1606d6ae77b4" name="Changes" comment="Initial commit of Selenium Framework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,6 +185,15 @@
       <option name="presentableId" value="Default" />
       <updated>1762403723774</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit of Selenium Framework">
+      <option name="closed" value="true" />
+      <created>1764093903831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764093903831</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +209,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit of Selenium Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit of Selenium Framework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
