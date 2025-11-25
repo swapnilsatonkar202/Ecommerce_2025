@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d85fb50-b2ee-4d67-abf9-1606d6ae77b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/ExtentReport_20251113_134601.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/objectRepository/OR.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/pages/AddToCartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/pages/InventoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/tests/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/utils/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/utils/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Ecommerce Suite/Ecommerce Tests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Ecommerce Suite/Ecommerce Tests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Ecommerce Suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/ExtentReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Selenium Demo Suite/Login Tests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Selenium Demo Suite/Login Tests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Selenium Demo Suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/TEST-TestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/TestSuite.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.qa.tests.LoginTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="355dAGLcxgIRfCtaUxgCBtfr28v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven.Ecommerce_2025 [clean].executor": "Run",
+    "Maven.Ecommerce_2025 [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/DELL/IdeaProjects/Ecommerce_2025/testng.xml.executor": "Run",
+    "TestNG.LoginInvalid (1).executor": "Run",
+    "TestNG.LoginInvalid (2).executor": "Run",
+    "TestNG.LoginInvalid (3).executor": "Run",
+    "TestNG.LoginInvalid.executor": "Run",
+    "TestNG.LoginInvalid.verifyInvalidLogin.executor": "Run",
+    "TestNG.LoginTest (1).executor": "Run",
+    "TestNG.LoginTest (2).executor": "Run",
+    "TestNG.LoginTest.LoginTest.executor": "Run",
+    "TestNG.LoginTest.VerifyCartNavigation.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.LoginTest.verifyAddToCart.executor": "Run",
+    "TestNG.LoginTest.verifyInvalidLogin.executor": "Debug",
+    "TestNG.LoginTest.verifyValidLogin.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/DELL/IdeaProjects/Ecommerce_2025/src/main/java/com/qa/demo/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.qa.tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/DELL/IdeaProjects/Ecommerce_2025/testng.xml">
+    <configuration name="C:/Users/DELL/IdeaProjects/Ecommerce_2025/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ecommerce_2025" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ecommerce_2025" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.tests.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.VerifyCartNavigation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ecommerce_2025" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.tests.LoginTest" />
+      <option name="METHOD_NAME" value="VerifyCartNavigation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.verifyInvalidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ecommerce_2025" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.tests.LoginTest" />
+      <option name="METHOD_NAME" value="verifyInvalidLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.verifyValidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ecommerce_2025" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.tests.LoginTest" />
+      <option name="METHOD_NAME" value="verifyValidLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.LoginTest" />
+      <item itemvalue="TestNG.LoginTest.VerifyCartNavigation" />
+      <item itemvalue="TestNG.LoginTest.verifyValidLogin" />
+      <item itemvalue="TestNG.LoginTest.verifyInvalidLogin" />
+      <item itemvalue="TestNG.C:/Users/DELL/IdeaProjects/Ecommerce_2025/testng.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/DELL/IdeaProjects/Ecommerce_2025/testng.xml" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.VerifyCartNavigation" />
+        <item itemvalue="TestNG.LoginTest.verifyValidLogin" />
+        <item itemvalue="TestNG.LoginTest.verifyInvalidLogin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d85fb50-b2ee-4d67-abf9-1606d6ae77b4" name="Changes" comment="" />
+      <created>1762403723774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762403723774</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qa/demo/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/qa/tests/LoginTest.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="driver" language="JAVA" />
+        <watch expression="driver" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
