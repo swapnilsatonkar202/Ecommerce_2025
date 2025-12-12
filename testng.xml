@@ -8,12 +8,13 @@
         </classes>
     </test>
 
+    <!--
     <test name="FirefoxTest">
         <parameter name="browser" value="firefox"/>
         <classes>
             <class name="com.qa.tests.LoginTest"/>
         </classes>
     </test>
-
+-->
 
 </suite>

@@ -27,9 +27,15 @@ public class AddToCartPage {
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
+    // ⭐ FINAL WORKING METHOD
     public void addProducts(int numberOfProducts) {
-        List<WebElement> buttons = driver.findElements(By.cssSelector(".inventory_item button"));
-        for (int i = 0; i < numberOfProducts && i < buttons.size(); i++) {
+
+        for (int i = 0; i < numberOfProducts; i++) {
+
+            // Fetch fresh buttons list each time
+            List<WebElement> buttons =
+                    driver.findElements(By.cssSelector("button.btn_inventory"));
+
             wait.until(ExpectedConditions.elementToBeClickable(buttons.get(i))).click();
         }
     }

@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8d85fb50-b2ee-4d67-abf9-1606d6ae77b4" name="Changes" comment="Initial commit of Selenium Framework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/pages/AddToCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/pages/AddToCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
     &quot;TestNG.LoginTest.VerifyCartNavigation.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LoginTest.verifyAddToCart.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTest.verifyInvalidLogin.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.LoginTest.verifyInvalidLogin.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LoginTest.verifyValidLogin.executor&quot;: &quot;Run&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -171,10 +174,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/DELL/IdeaProjects/Ecommerce_2025/testng.xml" />
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.VerifyCartNavigation" />
         <item itemvalue="TestNG.LoginTest.verifyValidLogin" />
         <item itemvalue="TestNG.LoginTest.verifyInvalidLogin" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.VerifyCartNavigation" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +206,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764094603729</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit of Selenium Framework">
+      <option name="closed" value="true" />
+      <created>1764097141058</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764097141058</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit of Selenium Framework">
+      <option name="closed" value="true" />
+      <created>1764097280704</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764097280704</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
