@@ -1,16 +1,21 @@
 package com.qa.tests;
 
 import com.qa.base.BaseTest;
+import com.qa.pages.CartPage;
 import com.qa.pages.LoginPage;
 import com.qa.pages.InventoryPage;
 import com.qa.pages.AddToCartPage;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.List;
 
 public class LoginTest extends BaseTest {
 
@@ -77,5 +82,65 @@ public class LoginTest extends BaseTest {
         int actualCount = cartPage.getCartItemCount();
         Assert.assertEquals(actualCount, 2, "❌ Cart item count mismatch!");
         System.out.println("✅ Added products verified in cart successfully.");
+
+        // -----------------------------
+        // 4️⃣ FILTER & SEARCH TEST (SEPARATE METHOD)
+        // -----------------------------
     }
+    @Test(priority = 4)
+    public void testFilterAndSearch() {
+
+        loginPage = new LoginPage(driver);
+
+        // Login
+        loginPage.login("standard_user", "secret_sauce");
+
+        // Sort dropdown
+        Select sort = new Select(
+                driver.findElement(By.className("product_sort_container"))
+        );
+        sort.selectByVisibleText("Name (Z to A)");
+
+        // Read product names
+        List<WebElement> productNames =
+                driver.findElements(By.className("inventory_item_name"));
+
+        for (WebElement name : productNames) {
+            System.out.println(name.getText());
+            }
+
+
+
+        }
+    @Test(priority = 5)
+    public void verifyRemoveItemsIfMoreThanFive() {
+
+        LoginPage loginPage = new LoginPage(driver);
+        InventoryPage inventoryPage = new InventoryPage(driver);
+        AddToCartPage addToCartPage = new AddToCartPage(driver);
+        CartPage cartPage = new CartPage(driver);
+
+        // ✅ Step 1: Login
+        loginPage.login("standard_user", "secret_sauce");
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.urlContains("inventory.html"));
+
+        Assert.assertTrue(inventoryPage.isInventoryPageLoaded(),
+                "❌ Inventory page not loaded");
+
+        // ✅ Step 2: Add more than 5 items
+        addToCartPage.addProducts(6);
+
+        // ✅ Step 3: Open cart
+        addToCartPage.openCart();
+
+        // ✅ Step 4: Apply business rule
+        cartPage.ensureMaxItems(5);
+
+        // ✅ Step 5: Assertion
+        Assert.assertEquals(cartPage.getCartItemCount(), 5,
+                "❌ Cart should contain max 5 items only");
+    }
+
 }

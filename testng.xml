@@ -6,7 +6,11 @@
         <classes>
             <class name="com.qa.tests.LoginTest"/>
         </classes>
+
     </test>
+    <listeners>
+        <listener class-name="com.qa.utils.TestListener"/>
+    </listeners>
 
     <!--
     <test name="FirefoxTest">
