@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d85fb50-b2ee-4d67-abf9-1606d6ae77b4" name="Changes" comment="Initial commit of Selenium Framework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/tests/DBInsertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/tests/DBInsertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/LatestExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/LatestExtentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
