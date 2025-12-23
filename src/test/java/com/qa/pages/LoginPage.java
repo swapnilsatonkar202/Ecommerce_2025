@@ -19,6 +19,10 @@ public class LoginPage {
 
     @FindBy(css = "[data-test='error']")
     WebElement errorMsg;
+    //Constructor – Page Initialization
+    //Constructor receives WebDriver from test class
+   // Assigns local driver to class driver
+    // Allows usage throughout the page class
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
