@@ -18,8 +18,8 @@ public class DBInsertTest {
             //ps.setString(3, "Sunil1");
            // ps.setString(4, "sunil1.test@gmail.com");
 
-            ps.setString(1, "tivak223");
-            ps.setString(2, "tivak223.test@gmail.com");
+            ps.setString(1, "shyam");
+            ps.setString(2, "shyam.test@gmail.com");
 
             int rows = ps.executeUpdate();
 

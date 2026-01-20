@@ -71,8 +71,14 @@ public class LoginTest extends BaseTest {
 
         // Step 2: Wait until inventory page is ready
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.urlContains("inventory.html"));
-        Assert.assertTrue(inventoryPage.isInventoryPageLoaded(), "❌ Inventory page did not load!");
+        inventoryPage.openCart();
+        Assert.assertTrue(driver.getCurrentUrl().contains("cart.html"));
+
+        //Assert.assertTrue(driver.getCurrentUrl().contains("cart"));
+
+
+        //wait.until(ExpectedConditions.urlContains("inventory.html"));
+        //Assert.assertTrue(inventoryPage.isInventoryPageLoaded(), "❌ Inventory page did not load!");
         System.out.println("✅ Inventory page loaded successfully.");
 
         // Step 3: Add multiple items
